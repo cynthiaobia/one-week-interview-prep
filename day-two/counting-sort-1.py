@@ -32,13 +32,13 @@ import sys
 
 
 arr = [1, 1, 3, 2, 1]
-arr.sort()
-int_range = arr[-1] # finding largest int
+# arr.sort()
+# int_range = arr[-1] # finding largest int
 
 frequency_arr = []
 
 # counting occurrence at each index
-for i in range(int_range + 1):
+for i in range(100):
   frequency_arr.append(arr.count(i))
 
 print(frequency_arr)
